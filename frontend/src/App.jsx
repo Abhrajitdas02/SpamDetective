@@ -18,7 +18,7 @@ const App = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      const res = await axios.post('http://127.0.0.1:5000/predict', { message: text });
+      const res = await axios.post('https://spamdetective.onrender.com/', { message: text });
       setResponse(res.data.result);
     } catch (error) {
       console.log("Error is ", error);
