@@ -1,0 +1,12 @@
+#production
+/build
+
+node_modules/
+
+streamlit.py
+sms_spam.ipynb
+res/
+
+spam.csv
+.streamlit/
+.ipynb_checkpoints/
