@@ -16,12 +16,7 @@
     "framer-motion": "^11.2.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-particle-js": "^1.0.1",
-    "react-particles": "^2.12.2",
-    "react-tsparticles": "^2.12.2",
-    "tailwind-merge": "^2.3.0",
-    "tsparticles": "^3.4.0",
-    "tsparticles-slim": "^2.12.0"
+    "tailwind-merge": "^2.3.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
