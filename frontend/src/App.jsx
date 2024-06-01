@@ -7,7 +7,12 @@ import { motion } from "framer-motion"
 import { LampDemo } from "./components/lampComponent";
 import { HeroParallaxDemo } from "./components/hero-component";
 
-new Darkmode().showWidget();
+const options = {
+  saveInCookies: true,
+  autoMatchOsTheme: true
+}
+
+new Darkmode(options).showWidget();
 
 const App = () => {
 
